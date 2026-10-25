@@ -3,7 +3,7 @@
 
 | Document information | Details |
 |---|---|
-| Module | Hardware and Network |
+| Module | Hardware, Networks, and Behaviorist AI |
 | Subtopic | Application execution and computer hardware |
 | Intended audience | Beginners |
 | Prerequisites | Basic familiarity with opening applications and saving files |
