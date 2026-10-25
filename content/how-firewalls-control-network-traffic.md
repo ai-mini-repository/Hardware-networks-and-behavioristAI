@@ -3,7 +3,7 @@
 
 | Document information | Details |
 |---|---|
-| Module | Hardware and Network |
+| Module | Hardware, Networks, and Behaviorist AI |
 | Subtopic | Firewalls and traffic filtering |
 | Intended audience | Beginners |
 | Prerequisites | Basic understanding of IP addresses and client–server communication |
