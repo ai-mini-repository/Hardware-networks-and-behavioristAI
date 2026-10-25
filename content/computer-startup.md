@@ -3,7 +3,7 @@
 
 | Document information | Details |
 |---|---|
-| Module | Hardware and Network |
+| Module | Hardware, Networks, and Behaviorist AI |
 | Subtopic | Firmware, bootloaders, and operating-system startup |
 | Audience | Beginners |
 | Prerequisites | Basic understanding of CPU, RAM, and storage |
