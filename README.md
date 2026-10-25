@@ -1,7 +1,7 @@
-# Hardware and Network — Stage 1 Markdown V1.0
+# Hardware ,Network, and Behaviorist AI — Stage 1 Markdown V1.0
 
 > **Team:** Whoisosy
-> **Module:** Hardware and Network,Behavorist AI
+> **Module:** Hardware, Networks, and Behaviorist AI
 > **Members / GitHub usernames:**
 	-Sat Aruzhan / Sataruzhan
 	-Richie Maynard 蔡宗震 / richie-maynard
@@ -14,7 +14,7 @@
 > **Latest commit:** 0613c87
 
 ## Project purpose
-This repository develops beginner-friendly learning content about computer hardware and computer networks. The content is intended to become the shared source for a study guide, presentation slides, and a short video tutorial.
+This repository develops beginner-friendly learning content about computer hardware ,computer networks, and behaviorist AI. The content is intended to become the shared source for a study guide, presentation slides, and a short video tutorial.
 
 ## Intended learners
 Beginners with basic computer literacy. No prior experience assembling a computer or configuring a network is assumed.
