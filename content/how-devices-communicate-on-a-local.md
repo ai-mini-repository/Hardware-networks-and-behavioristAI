@@ -1,6 +1,6 @@
 # How Devices Communicate on a Local Network
 
-Module: Hardware and Network  
+Module: Hardware, Networks, and Behaviorist AI  
 Audience: Beginners  
 Content version: V1.0  
 Status: Drafted — needs peer review
