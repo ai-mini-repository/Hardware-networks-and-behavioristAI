@@ -10,8 +10,8 @@
 	-Raul Mammadzada / verrby
 	-ATANTAYEV SULTAN / Sultan456-oss
 	-Pernebay Akhmet / ahmetpernebai
-> **Snapshot date:** 21-10-2026
-> **Latest commit:** 0613c87
+> **Snapshot date:** 26-10-2026
+> **Latest commit:** 52e2f1e
 
 ## Project purpose
 This repository develops beginner-friendly learning content about computer hardware ,computer networks, and behaviorist AI. The content is intended to become the shared source for a study guide, presentation slides, and a short video tutorial.
