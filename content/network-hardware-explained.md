@@ -1,6 +1,6 @@
 # Network Hardware Explained: Modems, Routers, Switches, and Access Points
 
-> **Module:** Hardware + Networks  
+> **Module:** Hardware, Networks, and Behaviorist AI 
 > **Level:** Beginner  
 > **Estimated learning time:** 15–20 minutes  
 > **Learning format:** Short reading, visual examples, and practice activities
