@@ -1,4 +1,4 @@
-# Hardware ,Network, and Behaviorist AI — Stage 1 Markdown V1.0
+# Hardware Network  — Stage 1 Markdown V1.0
 
 > **Team:** Whoisosy
 > **Module:** Hardware, Networks, and Behaviorist AI
