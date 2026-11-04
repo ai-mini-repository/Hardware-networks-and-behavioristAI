@@ -1,6 +1,14 @@
 # How a Computer Starts Up
 ## From the Power Button to the Sign-In Screen
+<p align="center">
+  <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=1000"
+       alt="Laptop computer"
+       width="650">
+</p>
 
+<p align="center">
+  <em>Every computer startup begins with hardware initialization and ends with a usable operating system.</em>
+</p>
 | Document information | Details |
 |---|---|
 | Module | Hardware, Networks, and Behaviorist AI |
