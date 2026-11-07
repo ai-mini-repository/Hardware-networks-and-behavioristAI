@@ -34,7 +34,24 @@ An RL agent does **exactly** what its rewards encourage — not what the designe
 
 ---
 
-## 2. The three building blocks
+## 2. Key terms
+
+| Term | Beginner-friendly meaning |
+|---|---|
+| **Reward function** | The rules that decide what number the agent receives after each action. |
+| **Goal reward** | A positive reward for completing the task (e.g. reaching the exit). |
+| **Step penalty** | A small negative reward for every action, to encourage efficiency. |
+| **Obstacle penalty** | A negative reward for an undesirable event (e.g. hitting a wall). |
+| **Sparse reward** | Rewards that are rare (e.g. only at the very end). Learning is harder. |
+| **Dense reward** | Frequent feedback along the way. Learning is easier, but easier to get wrong. |
+| **Reward shaping** | Adding extra intermediate rewards to guide learning. |
+| **Reward hacking / specification gaming** | The agent finds a way to get high reward that does not achieve the designer's real intention. |
+| **Overfitting** | Learning behavior that works only in the training environment. |
+| **Generalisation** | Performing well in new, unseen environments. |
+
+---
+
+## 3. The three building blocks
 
 ```mermaid
 flowchart TD
@@ -62,7 +79,7 @@ flowchart TD
 
 ---
 
-## 3. Sparse vs dense rewards
+## 4. Sparse vs dense rewards
 
 ```mermaid
 flowchart LR
@@ -84,7 +101,7 @@ flowchart LR
 
 ---
 
-## 4. Reward hacking — case studies
+## 5. Reward hacking — case studies
 
 These are documented examples collected by researchers. [2] [3] [4]
 
@@ -118,7 +135,7 @@ flowchart LR
 
 ---
 
-## 5. Multi-environment testing
+## 6. Multi-environment testing
 
 An agent trained in **one** maze might simply memorise that maze. It looks perfect — until the layout changes.
 
@@ -144,7 +161,50 @@ flowchart LR
 
 ---
 
-## 6. References
+## 7. Learning activities
+
+### Activity A — Predict the behavior
+
+A robot vacuum receives **+1 for every minute it is running**, and nothing else. What might it learn? Suggest a better reward.
+
+### Activity B — Spot the loophole
+
+A game agent receives **+5 for each coin collected**. Coins **reappear** 10 seconds after being collected. The level is completed at the exit for **+20**. What might go wrong?
+
+### Activity C — Design a reward
+
+Design a reward function (goal, step, obstacle) for a delivery drone. Explain each value in one sentence.
+
+### Activity D — Testing
+
+Why is a 100% success rate in the training maze **not enough** to say the agent has learned to navigate?
+
+---
+
+## 8. Answer key
+
+| Activity | Suggested answer |
+|---|---|
+| A | It may learn to keep running without cleaning (e.g. moving in circles). A better reward could be based on the area cleaned or dirt collected, with a small time or energy cost. |
+| B | The agent may stay near reappearing coins forever, because collecting coins repeatedly gives more reward than finishing (+20). Fix: coins do not reappear, a larger exit reward, or a step penalty/time limit. |
+| C | Example: +50 for a successful delivery; −0.1 per second of flight (efficiency); −100 for entering a no-fly zone or colliding (safety). Accept any reasoned design. |
+| D | It may have memorised that one layout (overfitting). It must also succeed in new, unseen layouts. |
+
+---
+
+## 9. Teaching plan
+
+| Time | Instructor action | Learner action |
+|---|---|---|
+| 0–3 min | Cleaning-robot analogy: "You get what you reward." | Predict how the robot might misbehave. |
+| 3–8 min | Three building blocks and the maze-versions table. | Discuss versions C and D. |
+| 8–13 min | Reward-hacking case studies. | Activity B. |
+| 13–17 min | Multi-environment testing. | Activity D. |
+| 17–20 min | Activity C in pairs; share designs. | — |
+
+---
+
+## 10. References
 
 [1] Amodei, D., et al. "Concrete Problems in AI Safety." arXiv:1606.06565, 2016.
 https://arxiv.org/abs/1606.06565
@@ -171,3 +231,4 @@ Shows the generalisation gap between training levels and unseen levels.
 - Maze reward values and predicted behaviors are original, illustrative teaching examples.
 - Case studies are paraphrased; the team should open each source to confirm details and URLs before submission.
 - Related topics: `learning-from-rewards-and-penalties.md`, `rule-based-vs-learning-agents.md`, `applications-and-limitations.md`.
+
