@@ -1,4 +1,4 @@
-# The Chronicles of Lab 404: Hardware, Networks & Behaviorist AI — Stage 2 Markdown V2.0
+# Hardware, Networks & Behaviorist AI — Stage 2 Markdown V2.0
 
 > **Team:** Whoisosy
 > **Module:** Hardware, Networks, and Behaviorist AI
