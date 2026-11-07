@@ -312,3 +312,4 @@ Accessible introduction to returns, value functions, and policies.
 - The corridor, reward values, α, γ, and all calculations are original teaching examples. A reviewer should recheck every calculation.
 - The trace always moves Right to stay short; this simplification is stated in Section 7.1.
 - Related topics: `how-an-ai-agent-learns.md`, `reward-design.md`, `behaviorist-ai-activities-and-labs.md`.
+
